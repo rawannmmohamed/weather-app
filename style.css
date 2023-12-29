@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container-fluid {
+    max-width:150vh;
+    min-height: 80vh;
+    background: radial-gradient(ellipse at top left, #c7d1dd, #064181);
+    margin: 90px auto 20px;
+    padding: 50px;
+    border-radius: 10px;
+
+}
+
+.form-control {
+    border-radius: 10px;
+
+}
+
+.btn {
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: #183350;
+}
+
+
+#temp {
+    font-size: 60px;
+    font-weight: bold;
+    color: aliceblue;
+
+}
+
+#city {
+    font-size: 40px;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+#humidity {
+    font-size: 25px;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+#wind {
+    font-size: 25px;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+#temp,
+#city,
+#humidity,
+#wind,
+#icon {
+    transition: 0.8s ease-in-out;
+    opacity: 0;
+}
+
+#temp.show,
+#city.show,
+#humidity.show,
+#wind.show,
+#icon.show {
+    opacity: 1;
+
+}
